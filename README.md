@@ -1,4 +1,4 @@
-# Slack Clone
+# Slacky, a Slack Clone
 
 ## Overview
 
