@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simplified clone of Slack, built to practice and demonstrate skills in Node.js, TypeScript, and GraphQL. The application focuses on real-time messaging, channel management, and user interactions, providing a hands-on experience with modern web technologies.
+This project is a simplified "Slack" clone built with Node.js, TypeScript, and GraphQL. This project is an opportunity to learn and practice building real-time communication applications with these technologies.
 
 ## Features
 
