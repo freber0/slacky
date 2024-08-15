@@ -44,8 +44,7 @@ This project is a simplified clone of Slack, built to practice and demonstrate s
 
     ```bash
     PORT=5050
-    DATABASE_URL=file:./dev.db
-    JWT_SECRET=your_jwt_secret
+    DATABASE_URL=./dev.db
     ```
 
 3. Start the development server:
