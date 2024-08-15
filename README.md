@@ -18,10 +18,8 @@ This project is a simplified clone of Slack, built to practice and demonstrate s
 - **Express**: Web framework for building the server.
 - **TypeScript**: Type-safe development.
 - **GraphQL**: API for querying and mutating data.
-- **Apollo Server**: GraphQL server implementation.
 - **WebSocket**: Real-time communication between client and server.
 - **React**: Frontend library for building user interfaces.
-- **Apollo Client**: GraphQL client for data fetching.
 - **SQLite**: Lightweight relational database for storing messages and user data.
 
 ## Getting Started
