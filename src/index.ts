@@ -1,7 +1,7 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import sqlite3 from 'sqlite3';
-import { initDatabase } from "./database/init";
+import { initDatabase } from "./persistence/database/init";
 var { createHandler } = require("graphql-http/lib/use/express")
 var { buildSchema } = require("graphql")
 var { ruruHTML } = require("ruru/server")
@@ -12,7 +12,6 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const db = new sqlite3.Database(process.env.DATABASE as string);
-
 initDatabase(db).then(() => console.log("Database initialized."))
 
 app.listen(port, () => {
